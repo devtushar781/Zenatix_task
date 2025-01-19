@@ -24,8 +24,8 @@ This project provides a modular and scalable solution for processing, analyzing,
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>s
+   git clone https://github.com/devtushar781/Zenatix_task.git
+   cd TEST_JOB
    ```
 
 2. **Set Environment Variables**
