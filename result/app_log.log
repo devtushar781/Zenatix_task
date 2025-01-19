@@ -1,0 +1,18 @@
+2025-01-19 19:47:16,980 - INFO - Data loaded successfully.
+2025-01-19 19:47:16,990 - INFO - Data cleaning completed.
+2025-01-19 19:47:16,990 - INFO - {'database': 'postgres', 'user': 'postgres', 'password': 'mysecretpassword', 'host': 'db', 'port': '5432'}
+2025-01-19 19:47:16,990 - INFO - Try to connect db 0 time
+2025-01-19 19:47:16,991 - INFO - Error occurred - connection to server at "db" (172.26.0.2), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-01-19 19:47:17,992 - INFO - Try to connect db 1 time
+2025-01-19 19:47:18,011 - INFO - Table created successfully.
+2025-01-19 19:47:20,971 - INFO - Data inserted successfully.
+2025-01-19 19:47:20,971 - INFO - Data saved to table sensor_data.
+2025-01-19 19:47:21,036 - INFO - Normalization completed.
+2025-01-19 19:47:21,048 - INFO - Time-series DataFrame created.
+2025-01-19 19:47:21,082 - INFO - Missing timestamps filled with interpolated values.
+2025-01-19 19:47:21,096 - INFO - Metrics calculation completed.
+2025-01-19 19:47:21,690 - INFO - generated new fontManager
+2025-01-19 19:47:22,696 - INFO - Plots generated and saved.
+2025-01-19 19:47:22,699 - INFO - Metrics exported to result/metrics_report.csv.

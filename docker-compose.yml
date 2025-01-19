@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  # PostgreSQL database
+  db:
+    image: postgres:latest
+    environment:
+    # These will be read from .env file
+      POSTGRES_USER: ${DBUSER}  
+      POSTGRES_PASSWORD: ${PASSWORD}
+      POSTGRES_DB: ${DATABASE}
+
+  # Python application
+  app:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - ./result:/app/result
+
+    command: python main.py
+    depends_on:
+      - db  # Ensure the DB service is up before starting the app
+
+
+# Named volume 
+volumes:
+  mytask:
